@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Flutter (Pixel 7 API 27)",
+            "program": "lib/main.dart",
+            "deviceId": "emulator-5554",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Small phone",
+            "program": "lib/main.dart",
+            "deviceId": "emulator-5556",
+            "request": "launch",
+            "type": "dart" 
+        }
+   
+   
+    ],
+    "compounds": [
+        {
+            "name": "All Devices",
+            "configurations": ["Flutter (Pixel 7 API 27)","Small phone"]
+        }
+    ]
+}
